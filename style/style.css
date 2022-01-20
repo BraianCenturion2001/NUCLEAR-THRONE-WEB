@@ -1,0 +1,331 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: transparent;
+    background: center fixed no-repeat;
+    font-family: monospace ;
+}
+
+.contenedor{
+    width: 1000px;
+	text-align: center;
+	margin: auto;
+}
+
+.header {
+    margin: 1rem;
+    width: 936px;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    height: auto;
+    color: rgba(145, 79, 211, .5);
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.cuerpo{
+    color: white;
+    background-color: transparent;
+}
+
+.footer{
+    color: white;
+    margin: 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+
+/*DIV OPCION */
+.opcion{
+    position: relative;
+    overflow: hidden;
+    margin: 60px;
+    border-radius: 10%;
+    background-color: transparent;
+    height: 500px;
+}
+
+
+/*DIV DONDE ESTA LA INFORMACION AL LADO DE LA IMAGEN*/
+.info{
+    background-color: rgba(0, 0, 0, .7);
+    position:absolute; 
+    top:0px;
+    width: 400px;
+    height: 500px;
+}
+
+.info h1{
+    margin: 30px;
+}
+.info p{
+    margin:20px;
+}
+
+/* IMAGEN DE FONDO */
+.fondo{
+    transform:scale(1.2);
+    height: 100%;
+    transition: 0.5s ease;
+}
+
+.opcion:hover .fondo{
+    transform:scale(1);
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.linkCultura{
+    height: auto;
+    margin: auto;
+    width: 140px;
+    background-color: rgba(145, 79, 211, .5);
+    border-radius: 15px 0px 15px 0px;
+    transition: .5s;
+}
+.linkCultura:hover{
+    transform: scale(1.5);
+    background-color: purple;
+}
+.linkCultura a{
+    color: white;
+}
+.linkInicio{
+    margin: auto;
+    width: 140px;
+    text-align: center;
+    background-color: rgba(145, 79, 211, .5);
+    border-radius: 15px 0px 15px 0px;
+    transition: .5s;
+}
+.linkInicio:hover{
+    transform: scale(1.3);
+    background: purple;
+}
+.linkInicio a{
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-bottom: 6px;
+    padding-right: 5px;
+    display:block;
+}
+
+ul{
+    list-style-type: none;
+}
+#linkHeader{
+    margin: auto;
+    width: 450px;
+    height: 200px;
+}
+
+#listaHeader{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+}
+#listaHeader li{
+    display: inline;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#listaHeader a{
+    color: green;
+    transition: 1s;
+}
+#listaHeader a:hover{
+    font-size: 30px;
+    color: rgba(18, 541, 37, 1);
+}
+
+#listaLinks{
+    text-align: center;
+    margin: auto;
+}
+#listaLinks li{
+    display:inline;
+    padding-left:20px;
+    padding-right:20px;
+}
+#listaLinks img{
+    transition: 1s;
+    filter: grayscale(100%);
+}
+#listaLinks img:hover{
+    filter: grayscale(1%);
+    transform: scale(1.2);
+}
+
+.lore{
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    margin: 2rem;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.lore p{
+    margin: 10px;
+}
+
+div table{
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    text-align: left;
+}
+
+.personaje{
+    margin: 2rem;
+    border: white solid 3px;
+    background-color: rgba(0, 0, 0, .7);
+    padding-bottom: 10px;
+}
+
+.fondozonas{
+    height: 100%;
+    transition: .5s;
+}
+.fondozonas:hover{
+    filter: blur(2px);
+}
+
+.infozonas{
+    background-color: rgba(0, 0, 0, .7);
+    position:absolute;
+    top: 0px;
+    width: 400px;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+.infozonas h1{
+    padding-top: 5px;
+}
+.infozonas p{
+    margin: 5px;
+}
+
+#nuclea{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px;
+    width: 150px;
+    color: green;
+    transition: 1s;
+}
+#nuclea:hover{
+    transform: scale(1.5);
+    color: rgba(18, 541, 37, 1);
+}
+
+.desarrollador{
+    text-align: center;
+    margin: auto;
+}
+.desarrollador img{
+    transition: 1s;
+}
+.desarrollador img:hover{
+    transform: scale(1.3);
+}
+
+.titulo{
+    font-variant:small-caps;
+    font-family:Lato,Verdana,Arial,sans-serif;
+    color:rgb(102,102,102);
+    font-size:15px;
+}
+
+.tablaDes{
+    text-align: center;
+    width: 50%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#formulario{
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    background: rgb(33, 33, 185, .2);
+    border-radius: 15px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+input{
+    border: none;
+    width: 80%;
+    color: white;
+    background: none;
+    border-bottom: solid 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+textarea{
+    resize: none;
+    border: none;
+    background: none;
+    color: white;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+select{
+    color: white;
+    border: solid 2px;
+    background: none;
+    text-transform: uppercase;
+}
+option{
+    background: rgb(33, 33, 185, .9);
+}
+
+#botonForm{
+    border: solid 2px;
+    border-radius: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#botonForm:hover{
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+#formulario *{
+    padding: 5px;
+    margin: 1rem;
+    font: inherit;
+}
+
+#mensaje {
+    width: 300px;
+    height: 100px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Nuclear Throne</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link href="style/style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/logica.js"></script>
+    </head>
+    <body style="background-image: url(images/FondoPrincipal.png);">
+        <div class="header">
+            <div id="linkHeader">
+                <a href="index.html" ><img class="logo" src="images/Logo.png" alt="" width="450" height="200" title="Menú Principal" /></a>
+            </div>
+            <div id="listaHeader">
+                <ul>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li>|</li>
+                    <li><a href="personajes.html">Personajes</a></li>
+                    <li>|</li>
+                    <li><a href="zonas.html">Zonas</a></li>
+                    <li>|</li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li>|</li>
+                    <li><a href="desarrolladores.html">Desarrolladores</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenedor">
+            <div id="cuerpo">
+                <div class="lore">
+                    <div id="formulario">
+                        <form action="#">
+                                <input type="text" id="nombre" name="nombre" placeholder="Nombre de usuario"/>
+                                <input type="password" id="contra" name="contra" placeholder="Contraseña"/>
+                                <label for="fecha">Fecha de Pago:</label>
+                                <input type="date" id="fecha" name="fecha" />
+                                <select id="cantidad" name="cantidad">
+                                    <option value=" " hidden selected>Cantidad de Copias</option>
+                                    <option value="1">1</option> 
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select><br />
+                                <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                                <input type="button" onclick="Principal()" value="Comprar" id="botonForm" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p><a href="desarrolladores.html"><img src="images/vlambeer-logo-transparent.png" width="40" height="40" alt="Vlambeer.com" title="Vlambeer.com" /></a></p>
+                <p>Copyright &copy; 2021 Vlambeer. All Rights Reserved.</p>
+            </div>
+        </div>
+    </body>
+</html>
